@@ -66,7 +66,7 @@ $colors: map-merge(
   $colors
 );
 
-$primary:       $red !default;
+$primary:       $red;
 $secondary:     $gray-600 !default;
 $success:       $green !default;
 $info:          $cyan !default;
@@ -389,8 +389,8 @@ $table-border-level:          -6 !default;
 //
 // Shared variables that are reassigned to `$input-` and `$btn-` specific variables.
 
-$input-btn-padding-y:         .5rem !default;
-$input-btn-padding-x:         1rem !default;
+$input-btn-padding-y:         .5rem;
+$input-btn-padding-x:         1rem;
 $input-btn-font-family:       null !default;
 $input-btn-font-size:         $font-size-base !default;
 $input-btn-line-height:       $line-height-base !default;
@@ -617,14 +617,14 @@ $custom-range-track-width:          100% !default;
 $custom-range-track-height:         .5rem !default;
 $custom-range-track-cursor:         pointer !default;
 $custom-range-track-bg:             $gray-300 !default;
-$custom-range-track-border-radius:  1rem !default;
+$custom-range-track-border-radius:  1rem;
 $custom-range-track-box-shadow:     inset 0 .25rem .25rem rgba($black, .1) !default;
 
 $custom-range-thumb-width:                   1rem !default;
 $custom-range-thumb-height:                  $custom-range-thumb-width !default;
 $custom-range-thumb-bg:                      $component-active-bg !default;
 $custom-range-thumb-border:                  0 !default;
-$custom-range-thumb-border-radius:           1rem !default;
+$custom-range-thumb-border-radius:           1rem;
 $custom-range-thumb-box-shadow:              0 .1rem .25rem rgba($black, .1) !default;
 $custom-range-thumb-focus-box-shadow:        0 0 0 1px $body-bg, $input-focus-box-shadow !default;
 $custom-range-thumb-focus-box-shadow-width:  $input-focus-width !default; // For focus box shadow issue in IE/Edge
