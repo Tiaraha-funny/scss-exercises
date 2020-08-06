@@ -8,6 +8,7 @@
  //file-size 183kb but later it is 2.8kb and now it is 105kb.
 
  @import "../node_modules/bootstrap/scss/functions";
+ @import "variables/bootstrap-defaults";
  @import "variables/bootstrap-custom";
  @import "../node_modules/bootstrap/scss/mixins";
 //  @import "../node_modules/bootstrap/scss/root";
