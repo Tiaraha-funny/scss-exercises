@@ -1,0 +1,28 @@
+.body-bg {
+  background-color: silver; }
+
+.container {
+  padding: 2rem; }
+
+.bg-padding {
+  display: inline-block;
+  left: 20rem; }
+
+.color-red {
+  background-color: red;
+  width: 300px;
+  font-size: 3rem;
+  text-align: center; }
+
+.color-white {
+  width: 300px;
+  font-size: 3rem;
+  text-align: center;
+  background-color: white; }
+
+.color-black {
+  width: 300px;
+  font-size: 3rem;
+  text-align: center;
+  background-color: black;
+  color: white; }
